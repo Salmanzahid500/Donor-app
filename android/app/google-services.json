@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327655220942",
+    "project_id": "donorapp-d524b",
+    "storage_bucket": "donorapp-d524b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327655220942:android:84a446356e1f01af9b129f",
+        "android_client_info": {
+          "package_name": "com.donerproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbcaKPxSTwf_HoBdPMeSrExTTqwXIby7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
