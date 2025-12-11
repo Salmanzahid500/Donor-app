@@ -72,7 +72,7 @@ For detailed environment setup, visit: [React Native Environment Setup](https://
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Salmanzahid500/Donor-app.git
+   git clone 
    cd DonerProject
    ```
 
