@@ -1,8 +1,13 @@
+/**
+ * Route Constants - Centralized route names for navigation
+ * Prevents typos and makes route refactoring easier
+ */
 export const Route = {
+    // Authentication Routes
     LOGINSCREEN: "LoginScreen",
     SIGNUPSCREEN: "SignupScreen",
 
-    //StudentFlow
+    // Student Flow Routes
     DASHBOARDSCREEN: "DashboardScreen",
     PROFILESCREEN: "ProfileScreen",
     SIGNUPEVENTSCREEN: "SignupEventScreen",
@@ -12,8 +17,7 @@ export const Route = {
     UPDATEPROFILESCREEN: "UpdateProfileScreen",
     NOTIFICATIONSCREEN: "NotificationScreen",
 
-
-    //UniversityFlow
+    // University Flow Routes
     UNIVERSITYDASHBOARDSCREEN: "UniversityDashboardScreen",
     UNIVERSITYREWARDSCREEEN: "UniversityRewardScreen",
     UNIVERSITYREPORTSCREEEN: "UniversityReportScreen",

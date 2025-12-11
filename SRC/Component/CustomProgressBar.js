@@ -1,8 +1,21 @@
+/**
+ * Custom Progress Bar Component
+ * Displays visual progress indicator for event capacity or similar metrics
+ */
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 import { wp } from "./ResponsiveComponent";
 import { Color } from "../Theme/Color/Index";
 
+/**
+ * Progress bar with customizable colors and dimensions
+ * @param {number} progress - Current progress value (e.g., registered students)
+ * @param {number} total - Total capacity (e.g., event capacity)
+ * @param {number} height - Height of progress bar
+ * @param {string} backgroundColor - Background color of track
+ * @param {string} progressColor - Color of progress fill
+ * @param {string} textColor - Color of text (if displayed)
+ */
 export const CustomProgressBar = ({
   progress = 3, 
   total = 5,    
@@ -11,6 +24,7 @@ export const CustomProgressBar = ({
   progressColor = Color.SECONDARY,
   textColor = Color.TEXT_PRIMARY,
 }) => {
+  // Calculate percentage ensuring it doesn't exceed 100%
   const percentage = Math.min(progress / total, 1); 
 
   return (
